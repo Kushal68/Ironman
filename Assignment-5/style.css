@@ -1,0 +1,199 @@
+body {
+  background-color: black;
+}
+/* 1rem = 16px */
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 0 0 10px 0 #d7b530;
+  height: 12%;
+  background-color: #98141c;
+  z-index: 5;
+}
+nav ul {
+  margin-left: 7rem;
+  margin-top: -6.3rem;
+  text-align: left;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 4rem;
+  font-size: 1.5rem;
+  color: #d7b530;
+  cursor: pointer;
+}
+nav a {
+  text-decoration: none;
+  color: #d7b530;
+}
+
+.logo {
+  margin-top: -2.2rem;
+  width: 8rem;
+  height: 10rem;
+  filter: invert(97%) sepia(79%) saturate(6097%) hue-rotate(327deg)
+    brightness(87%) contrast(92%);
+}
+
+.profile-logo {
+  cursor: pointer;
+  position: absolute;
+  width: 3rem;
+  height: 4rem;
+  top: 0.9rem;
+  right: 3rem;
+  filter: invert(97%) sepia(79%) saturate(6097%) hue-rotate(327deg)
+    brightness(87%) contrast(92%);
+}
+.image {
+  position: relative;
+  padding-top: 3rem;
+}
+
+.ironman-image {
+  height: 50rem;
+  width: 100%;
+}
+.New-arrival {
+  position: relative;
+  padding-top: 4rem;
+  height: 90vh;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #d7b530;
+  text-decoration: underline;
+}
+.description {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: #d7b530;
+}
+/* ---------------------------MARK-XLIX------------------------------ */
+.New-1 {
+  margin-left: 3rem;
+  display: inline-block;
+  border: 2px solid #98141c;
+  width: 28rem;
+  background-color: #000;
+}
+.one:hover,
+.one:active {
+  transform: scale(1.3);
+  opacity: 1;
+}
+.one {
+  opacity: 0.3;
+  height: 30rem;
+  margin-left: 5rem;
+  transform: scale(1);
+  overflow: hidden;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+/* --------------------------MARK-L------------------------------------- */
+.New-2 {
+  display: inline-block;
+  margin-left: 6rem;
+  border: 2px solid #98141c;
+  width: 28rem;
+}
+/* ---------------------------MARK-LXXXV------------------------- */
+.New-3 {
+  display: inline-block;
+  margin-left: 6rem;
+  border: 2px solid #98141c;
+  width: 28rem;
+}
+
+.Showcase {
+  position: relative;
+  padding-top: 3rem;
+}
+/* ---------------------------MARK-I----------------------------- */
+.Type-1 {
+  display: inline-block;
+  margin-left: 3rem;
+  border: 2px solid #98141c;
+  width: 28rem;
+}
+.Mark-I {
+  height: 30rem;
+  margin-left: 5rem;
+}
+/* --------------------------MARK-II------------------------------------ */
+.Type-2 {
+  display: inline-block;
+  margin-left: 6rem;
+  border: 2px solid #98141c;
+  width: 28rem;
+}
+.Mark-II {
+  height: 30rem;
+  margin-left: 5rem;
+}
+/* ---------------------------MARK-III------------------------- */
+.Type-3 {
+  display: inline-block;
+  margin-left: 6rem;
+  border: 2px solid #98141c;
+  width: 28rem;
+}
+.Mark-III {
+  height: 30rem;
+  margin-left: 5rem;
+}
+/* ---------------------------About------------------ */
+.About {
+  position: relative;
+  padding-top: 4rem;
+}
+.Content {
+  border: 2px solid #98141c;
+  color: #d7b530;
+  padding: 4rem;
+}
+.content-1 {
+  font-size: 3rem;
+  display: inline-block;
+  width: 40rem;
+  margin-right: 20rem;
+}
+.tonystark {
+  opacity: 0.3;
+  transform: scale(1);
+  overflow: hidden;
+  transition: all 0.2s;
+  width: 30rem;
+  height: 30rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+.tonystark:hover,
+.tonystark:active {
+  transform: scale(1.3);
+  opacity: 1;
+}
+
+/* ----------------------------Contact------------------------ */
+.contact {
+  position: relative;
+  padding-top: 6rem;
+  margin-left: 45rem;
+}
+.contact-logo {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 3rem;
+  filter: invert(97%) sepia(79%) saturate(6097%) hue-rotate(327deg)
+    brightness(87%) contrast(92%);
+}
